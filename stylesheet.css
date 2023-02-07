@@ -62,3 +62,8 @@
     margin-right: auto;
     width: 50%;
   }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }

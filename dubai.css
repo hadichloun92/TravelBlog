@@ -1,0 +1,42 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    border-color: #752e2e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #c26161;
+    background-color: rgb(170, 83, 83);
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+  }
+
+  @keyframes example {
+    0%   {background-color:rgb(183, 89, 89); left:0px; top:0px;}
+    25%  {background-color:rgb(161, 161, 95); left:200px; top:0px;}
+    50%  {background-color:rgb(83, 83, 130); left:200px; top:200px;}
+    75%  {background-color:rgb(97, 143, 97); left:0px; top:200px;}
+    100% {background-color:rgb(123, 83, 83); left:0px; top:0px;}
+  }
+
+  .btn {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
