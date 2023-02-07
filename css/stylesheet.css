@@ -1,3 +1,7 @@
+@import "css/paris.css";
+@import "css/dubai.css";
+@import "css/bora.css";
+
 .container {
   display: grid;
   margin:auto;
