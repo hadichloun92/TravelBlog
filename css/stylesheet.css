@@ -1,6 +1,6 @@
-@import "css/paris.css";
-@import "css/dubai.css";
-@import "css/bora.css";
+@import "paris.css";
+@import "dubai.css";
+@import "bora.css";
 
 .container {
   display: grid;
